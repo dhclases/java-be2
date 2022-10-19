@@ -1,0 +1,56 @@
+@startuml
+
+title Cadena de Responsabilidad
+
+package com.dh.chain <<Chain>>  as chain{
+
+abstract class ProcesadorCorreo {
+
+// Atributos protected
+
+ # String correoAsignado;
+ # String asuntoPorProcesar;
+ # Manejador siguienteEtapa;
+
+ // Interconecta las implementaciones
+
+ + Manejador getSiguienteEtapa()
+ + Manejador setSiguienteEtapa( etapa Manejador)
+
+ # boolean esValidoElCorreo(Correo email) // Evaluar correo para todas las implementaciones
+
+ + abstract String comprobar(Correo correoAProcesar) // Definicion del método a ser iimplementado
+
+}
+note left: Manejo de Responsabilidad del Correo
+
+
+ProcesadorCorreo <|-down- ProcesadorCorreoComercial: Extends
+ProcesadorCorreo <|-down- ProcesadorCorreoSoporteIT: Extends
+ProcesadorCorreo <|-down- ProcesadorCorreoGerencial: Extends
+
+
+}
+
+package com.dh.model <<Model>> as model{
+    class CorreoElectronico{
+        - String origen
+        - String destino
+        - String asunto
+    }
+}
+
+package com.dh.client  as client {
+class Main
+class ValidadorCorreo{
+- Manejador inicial
+- final String MENSAJE_SPAM
+
++ configurarValidador()
++ boolean comprobar(Correo email)
+}
+}
+
+client -down-|> model: Use
+client -up-|> chain: Use
+@enduml

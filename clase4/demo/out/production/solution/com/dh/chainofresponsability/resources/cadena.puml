@@ -1,0 +1,56 @@
+@startuml
+
+title Cadena de Responsabilidad
+
+package com.dh.chain <<Chain>>  as chain{
+
+abstract class Manejador {
+
+ // Declaro los atributos comunes entre implementaciones
+
+ public String atributo1;
+ protected Manejador siguienteManejador;
+
+ // Interconecta las implementaciones
+
+ public Manejador getSiguiente()
+ public Manejador setSiguiente()
+
+}
+note left: Coordina y define la cadena de responsabilidad
+
+class ImplementacionConcreta1{
+// Constructor
+...
+// Sobrecarga ( override)
+---
+// Atributos propios de procesamiento
+---
+// Metodos propios del procesamiento
+...
+}
+class ImplementacionConcreta2
+note bottom: Regla de Negocio a resolver
+class ImplementacionConcreta3
+
+
+
+Manejador <|-down- ImplementacionConcreta1: Extends
+Manejador <|-down- ImplementacionConcreta2: Extends
+Manejador <|-down- ImplementacionConcreta3: Extends
+
+note "Puntos claves: Definir la clase Manejador, \n luego implementaciones e interconecto" as N1
+
+}
+
+package com.dh.model <<Model>> as model{
+class Request
+}
+
+package com.dh.client  as client {
+class Main
+}
+
+client -down-|> model: Use
+client -up-|> chain: Use
+@enduml
