@@ -1,0 +1,30 @@
+@startuml
+
+title Diagrama de Clase
+
+
+abstract class Vendedor {
+  # String nombre
+  # Float ventas
+  # int PUNTOS_DE_VENTAS
+  + void vender()
+  + abstract int calcularPuntos()
+  + String mostrarCategorias()
+  + String getCategorias()
+}
+
+class Empleado {
+- int aniosAntiguedad
+- ArrayList<Vendedor> afiliados
++ void addAfiliado(Vendedor afiliado)
+}
+class Afiliado
+
+
+
+
+Vendedor <|-down- Empleado: Extends
+Vendedor <|-down- Afiliado: Extends
+
+
+@enduml
