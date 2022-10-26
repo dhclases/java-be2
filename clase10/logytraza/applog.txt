@@ -1,0 +1,30 @@
+INFO    2022-10-25 21:29:50,373 [main] main.java.demo.Aplicacion  - Test de logger
+INFO    2022-10-25 21:29:50,392 [main] main.java.demo.model.Leon  - El main.java.demo.model.Leon Leon de prueba esta corriendo
+INFO    2022-10-25 21:29:50,393 [main] main.java.demo.model.Leon  -  Iniciando proceso de evaluacion de Mayor
+INFO    2022-10-25 21:29:50,393 [main] main.java.demo.model.Leon  -  Culminando proceso proceso de evaluacion de Mayor
+INFO    2022-10-25 21:29:50,394 [main] main.java.demo.model.Leon  - El main.java.demo.model.Leon Leon de prueba esta corriendo
+INFO    2022-10-25 21:29:50,394 [main] main.java.demo.model.Leon  - El main.java.demo.model.Leon Leon de prueba esta corriendo
+INFO    2022-10-25 21:29:50,394 [main] main.java.demo.model.Leon  -  Iniciando proceso de evaluacion de Mayor
+ERROR   2022-10-25 21:29:50,395 [main] main.java.demo.model.Leon  - La edad no puede ser negativa
+ERROR   2022-10-25 21:29:50,396 [main] main.java.demo.Aplicacion  - La edad del leon Leon de pruebaes incorrecto
+INFO    2022-10-25 21:50:38,632 [main] main.java.demo.Aplicacion  - Test de logger
+INFO    2022-10-25 21:50:38,661 [main] main.java.demo.model.Leon  - El main.java.demo.model.Leon Leon de prueba esta corriendo
+INFO    2022-10-25 21:50:38,662 [main] main.java.demo.model.Leon  -  Iniciando proceso de evaluacion de Mayor
+INFO    2022-10-25 21:50:38,662 [main] main.java.demo.model.Leon  -  Culminando proceso proceso de evaluacion de Mayor
+INFO    2022-10-25 21:50:38,663 [main] main.java.demo.model.Leon  - El main.java.demo.model.Leon Leon de prueba esta corriendo
+INFO    2022-10-25 21:50:38,663 [main] main.java.demo.model.Leon  - El main.java.demo.model.Leon Leon de prueba esta corriendo
+INFO    2022-10-25 21:50:38,666 [main] main.java.demo.model.Leon  -  Iniciando proceso de evaluacion de Mayor
+ERROR   2022-10-25 21:50:38,666 [main] main.java.demo.model.Leon  - La edad no puede ser negativa
+ERROR   2022-10-25 21:50:38,669 [main] main.java.demo.Aplicacion  - La edad del leon Leon de pruebaes incorrecto
+INFO    2022-10-25 23:09:32,993 [main] main.java.demo.Aplicacion  - Test de logger
+INFO    2022-10-25 23:09:33,051 [main] main.java.demo.model.Leon  - El nombre Leon es Zimbaesta corriendo
+INFO    2022-10-25 23:09:33,053 [main] main.java.demo.model.Leon  - Iniciando proceso de evaluacìón de Mayoria
+INFO    2022-10-25 23:09:33,053 [main] main.java.demo.model.Leon  - Culminando proceso de evaluacìón de Mayoria
+INFO    2022-10-25 23:11:17,474 [main] main.java.demo.Aplicacion  - Test de logger
+INFO    2022-10-25 23:11:17,526 [main] main.java.demo.model.Leon  - El nombre Leon es Zimbaesta corriendo
+INFO    2022-10-25 23:11:17,527 [main] main.java.demo.model.Leon  - Iniciando proceso de evaluacìón de Mayoria
+INFO    2022-10-25 23:11:17,527 [main] main.java.demo.model.Leon  - Culminando proceso de evaluacìón de Mayoria
+INFO    2022-10-25 23:11:17,527 [main] main.java.demo.model.Leon  - El nombre Leon es de otra vidaesta corriendo
+INFO    2022-10-25 23:11:17,527 [main] main.java.demo.model.Leon  - Iniciando proceso de evaluacìón de Mayoria
+ERROR   2022-10-25 23:11:17,528 [main] main.java.demo.model.Leon  - La edad no puede ser negativa
+ERROR   2022-10-25 23:11:17,529 [main] main.java.demo.Aplicacion  - La edad del leon Leon es Zimba es incorrecto 
