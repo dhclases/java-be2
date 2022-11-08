@@ -1,0 +1,27 @@
+
+g	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(ş¸…çøÿÿÿÿ8‹‹Ÿ„Ã0
+^
+java:S2259M"HA "NullPointerException" could be thrown; "connection" is nullable here.(İÌï
+`
+java:S3518:"CMake sure this expression can't be zero before doing this division.(ŠÒ‡ı8ÔŒÓ„Ã0
+d
+java:S2095R"GUse try-with-resources or close this "Statement" in a "finally" clause.(¥ˆöÈ8ÑÜÌ„Ã0
+e
+java:S2095$"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ê¯óİ
+i
+java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8¿¤®„Ã0
+e
+java:S20955"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(«ş³İ
+j
+java:S2095+"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Æ–ŸÚıÿÿÿÿ
+R
+java:S1854:"5Remove this useless assignment to local variable "a".(ŠÒ‡ı8àŒÓ„Ã0
+C
+java:S1481:"&Remove this unused "a" local variable.(ŠÒ‡ı8îŒÓ„Ã0
+g
+java:S3457F"Q%n should be used in place of \n to produce the platform-specific line separator.(”Ü¨ÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(”Ü¨ÿ
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(äìÎÆ
+n
+java:S3457V"Q%n should be used in place of \n to produce the platform-specific line separator.(”Ü¨ÿ8İ¤®„Ã0
+U	java:S106V"9Replace this use of System.out or System.err by a logger.(”Ü¨ÿ8Ş¤®„Ã0

@@ -1,0 +1,16 @@
+
+Ž
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Þýÿÿÿÿ8«š¶®Ã0
+U	java:S106""9Replace this use of System.out or System.err by a logger.(×’žû8²š¶®Ã0
+X	java:S125("<This block of commented-out lines of code should be removed.(øÁ¥Ú8×š¶®Ã0
+V
+java:S1128"@Remove this unused import 'org.apache.logging.log4j.LogManager'.(Ë”Ëé
+W
+java:S1128"<Remove this unused import 'org.apache.logging.log4j.Logger'.(»¯øÿÿÿÿ
+F
+java:S1128
+"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ
+I
+java:S1128"3Remove this unused import 'java.sql.DriverManager'.(“£°
+E
+java:S1128"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø

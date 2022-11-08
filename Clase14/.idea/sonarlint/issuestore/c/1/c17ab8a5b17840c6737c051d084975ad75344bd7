@@ -1,0 +1,38 @@
+
+`	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+j
+java:S1192!"TUse already-defined constant 'DB_JDBC_DRIVER' instead of duplicating its value here.(›‡ªœ
+r
+java:S2629"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(‚Æø—
+R
+java:S2629<"7Use the built-in formatting to construct this argument.(¼ÓÅÄÿÿÿÿÿ
+^
+java:S2095""HUse try-with-resources or close this "Connection" in a "finally" clause.(¤‹ý«
+^
+java:S2095D"HUse try-with-resources or close this "Connection" in a "finally" clause.(¤‹ý«
+j
+java:S2095G"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Û††Òúÿÿÿÿ
+j
+java:S2095%"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Îæâþÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(„œð®
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ä¥”“
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ý«‡÷þÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ìç´µ
+W
+java:S3457"AFormat specifiers should be used instead of string concatenation.(‚Æø—
+C
+java:S4925!"-Remove this "Class.forName()", it is useless.(›‡ªœ
+?
+java:S2115"")Add password protection to this database.(¤‹ý«
+\
+java:S3457<"AFormat specifiers should be used instead of string concatenation.(¼ÓÅÄÿÿÿÿÿ
+C
+java:S4925C"-Remove this "Class.forName()", it is useless.(¾ÃùÎ
+?
+java:S2115D")Add password protection to this database.(¤‹ý«
+B
+java:S1128",Remove this unused import 'com.dh.demo.App'.(ÒÑ´î

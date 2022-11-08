@@ -1,0 +1,15 @@
+
+`	java:S112J"FDefine and throw a dedicated exception instead of using a generic one.(ş¸…çøÿÿÿÿ
+b
+java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(¾°ğûüÿÿÿÿ
+b
+java:S2095&"GUse try-with-resources or close this "Statement" in a "finally" clause.(¡’­·ÿÿÿÿÿ
+b
+java:S2095#"GUse try-with-resources or close this "Statement" in a "finally" clause.(”ùÇûÿÿÿÿ
+b
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+]
+java:S2095*"GUse try-with-resources or close this "Statement" in a "finally" clause.(¥ˆöÈ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(Õø¸¹ÿÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+Q	java:S125K"<This block of commented-out lines of code should be removed.(è±ëˆ
