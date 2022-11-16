@@ -1,0 +1,15 @@
+{
+  "id": 2,
+  "nombre": "mi nombre",
+  "apellido": "mi apellido",
+  "email": "a@a.com",
+  "dni": "2121",
+  "fechaIngreso": "2022-12-10",
+  "domicilio": {
+    "id": 2,
+    "numero": 1212,
+    "localidad": "mi localidad",
+    "calle": "mi caller",
+    "provincia": "mi provincia"
+  }
+}

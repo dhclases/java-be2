@@ -4,6 +4,7 @@ package com.dh.demo.repository.impl;
 import com.dh.demo.model.Paciente;
 import com.dh.demo.repository.GenericRepository;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +14,15 @@ public class PacienteRepositoryInMemory implements GenericRepository<Paciente> {
 
     public PacienteRepositoryInMemory() {
         this.pacientes = new ArrayList<>();
+        Paciente p = new Paciente();
+        p.setId(1);
+        p.setEmail("a@a.com");
+        p.setNombre("mi nombre");
+        p.getDomicilio().setCalle("mi caller");
+        p.getDomicilio().setNumero(1212);
+        p.getDomicilio().setId(2);
+        p.setFechaIngreso(LocalDate.of(2022,12,10));
+        pacientes.add(p);
 
     }
 

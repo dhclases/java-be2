@@ -1,19 +1,18 @@
 package com.dh.demo.model;
 
 public class Odontologo {
-    private long id;
+    private Integer id;
     private String nombre;
     private String apellido;
     private String matricula;
 
-    public Odontologo() {
-    }
+    public Odontologo() { }
 
-    public long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -39,15 +38,5 @@ public class Odontologo {
 
     public void setMatricula(String matricula) {
         this.matricula = matricula;
-    }
-
-    @Override
-    public String toString() {
-        return "Odontologo{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                ", matricula='" + matricula + '\'' +
-                '}';
     }
 }
