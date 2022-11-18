@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "paciente": {
+      "id": 1,
+      "nombre": "Alberto",
+      "apellido": "Paz",
+      "dni": "1101807345",
+      "fechaIngreso": "2022-06-14T22:13:25.833+00:00",
+      "domicilio": {
+        "id": 1,
+        "calle": "Medrano",
+        "numero": "970",
+        "localidad": "Medrano",
+        "provincia": "CABA"
+      }
+    },
+    "odontologo": {
+      "id": 1,
+      "nombre": "Luis",
+      "apellido": "Zamora",
+      "matricula": 103040
+    },
+    "date": "2022-06-14T22:13:25.833+00:00"
+  },
+  {
+    "id": 2,
+    "paciente": {
+      "id": 2,
+      "nombre": "Alberto II",
+      "apellido": "Paz",
+      "dni": "1101807345",
+      "fechaIngreso": "2022-06-14T22:13:25.833+00:00",
+      "domicilio": {
+        "id": 1,
+        "calle": "Medrano",
+        "numero": "970",
+        "localidad": "Medrano",
+        "provincia": "CABA"
+      }
+    },
+    "odontologo": {
+      "id": 1,
+      "nombre": "Luis",
+      "apellido": "Zamora",
+      "matricula": 103040
+    },
+    "date": "2022-06-14T22:13:25.833+00:00"
+  }
+]
