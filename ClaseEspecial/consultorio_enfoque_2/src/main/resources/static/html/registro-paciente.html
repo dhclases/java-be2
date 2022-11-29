@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Odontológica</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="../scripts/postPaciente.js"></script>
+</head>
+<body>
+    <header>
+    <h2>
+        <a href="../index.html">Denttotal <span aria-label="Emoji muela">🦷</span></a>
+    </h2>
+    <nav role="navigation">
+        <ul>
+            <li>
+                <a href="#" aria-haspopup="true">Usuarios</a>
+                <ul class="hidden">
+                    <li><a href="./registro-usuario.html">Registrar usuario</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" aria-haspopup="true">Odontólogos</a>
+                <ul class="hidden">
+                    <li><a href="./registro-odontologo.html">Registrar odontólogo</a></li>
+                    <li><a href="./lista-odontologos.html">Ver odontólogos</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" aria-haspopup="true">Pacientes</a>
+                <ul class="hidden">
+                    <li><a href="#">Registrar paciente</a></li>
+                    <li><a href="./lista-pacientes.html">Ver pacientes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" aria-haspopup="true">Turnos</a>
+                <ul class="hidden">
+                    <li><a href="./registro-turno.html">Sacar turno</a></li>
+                    <li><a href="./lista-turnos.html">Ver turnos</a></li>
+                </ul>
+            </li>
+            <li><a href="/logout">Cerrar sesión</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section>
+            <div class="form-container">
+                <div class="form">
+                    <h2>Registrar paciente</h2>
+                    <form action="" method="POST" name="formularioPaciente"  id="formularioPaciente">
+                        <fieldset name="datos">
+                            <legend>Datos personales</legend>
+                            <input type="text"
+                                id="nombre"
+                                name="nombre"
+                                placeholder="Nombre"
+                                required>
+    
+                            <input type="text" 
+                                id="apellido"
+                                name="apellido"
+                                placeholder="Apellido"
+                                required>
+    
+                            <input type="number" 
+                                id="dni"
+                                name="dni"
+                                placeholder="DNI"
+                                required>  
+                        </fieldset>
+
+                        <fieldset name="direccion">
+                            <legend>Dirección</legend>
+                            <input type="text" 
+                                id="calle"
+                                name="calle"
+                                placeholder="Calle"
+                                required>
+
+                            <input type="number" 
+                                id="numero"
+                                name="numero"
+                                placeholder="Numero"
+                                required>  
+
+                            <input type="text" 
+                                id="localidad"
+                                name="localidad"
+                                placeholder="Localidad"
+                                required>
+
+                            <input type="text" 
+                                id="provincia"
+                                name="provincia"
+                                placeholder="Provincia"
+                                required>
+                        </fieldset>
+
+
+                        <div class="conteiner-btn">
+                            <input type="reset" 
+                                class="input-btn reset-btn form-btn left-btn"
+                                value="Resetear">
+
+                            <input type="submit" 
+                                class="input-btn form-btn right-btn"
+                                value="Crear">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+      <p>Todos los derechos reservados a Fernando Escobar ©</p>
+    </footer>
+</body>
+</html>

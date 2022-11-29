@@ -1,0 +1,94 @@
+header {
+  background-color: var(--primary-color);
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 5px 20px black;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* Alineo logo con titulo */
+header a {
+  display: flex;
+  align-items: center;
+}
+
+header h2 a {
+  color: white;
+  padding: 0 14px;
+}
+
+header a img {
+  width: 80px;
+  padding: 1vw;
+}
+
+/* Le saco los dots a las ul dentro del nav */
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul:last-child {
+  margin-right: 3vw;
+}
+
+/* Le doy un tamaño y color a los links del nav */
+header nav ul li a {
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+  padding: 10px;
+}
+
+/* Inicialmente oculto lo que va a ser el drop down */
+header nav ul li ul.hidden {
+  position: absolute;
+  display: none;
+  opacity: 1;
+  animation: fadeInOpacity 1s;
+}
+
+/* A cada anchor del item de la lista hija le asigno width 100% */
+header nav ul li ul li a {
+  width: 100%;
+}
+
+/* Cuando el mouse esta sobre un item de la lista,
+muestro el drop down */
+header nav ul li a:hover + .hidden, .hidden:hover {
+  display: flex;
+  flex-direction: column;
+}
+
+header nav ul li:hover a {
+  background: var(--secondary-color);
+  color: var(--primary-color-darker);
+}
+
+/* Cuando el mouse este sobre un item de la lista muestro
+la drop down con fondo gris oscuro */
+header nav ul li:hover ul li a {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+/* Cuando el mouse este sobre un item de la lista muestro
+y sobre uno de sus items le cambio el color */
+header nav ul li:hover ul li a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

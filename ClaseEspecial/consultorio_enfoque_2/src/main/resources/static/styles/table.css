@@ -1,0 +1,50 @@
+table.listado {
+  background-color: #555555;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+table.listado td,
+table.listado th {
+  border: 1px solid #555555;
+  padding: 7px 7px;
+}
+
+table.listado tbody td {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+table.listado tr:nth-child(even) {
+  background: #757979;
+}
+
+table.listado thead {
+  background: #134b5f;
+}
+
+table.listado thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  border-left: 2px solid #134b5f;
+}
+
+table.listado thead th:first-child {
+  border-left: none;
+}
+
+
+table.listado tfoot td {
+  font-size: 13px;
+}
+
+table.listado tfoot .links a {
+  display: inline-block;
+  background: #792396;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
