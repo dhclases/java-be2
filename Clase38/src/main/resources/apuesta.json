@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "resultado": "2-2",
+  "estado": "CALENDARIO",
+  "equipoLocal": {
+    "id": 1,
+    "nombre": "Argentina",
+    "pais": "Argentina"
+  },
+  "equipoVisitante": {
+    "id": 1,
+    "nombre": "PoloniaArgentina",
+    "pais": "Polonia"
+  }
+}
